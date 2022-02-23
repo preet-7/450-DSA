@@ -20,7 +20,7 @@ int main(){
 	int n=sizeof(a)/sizeof(a[0]),k=2;
 	struct couple p;
 	p=kth(a,n,k);
-	cout << "kth small" << p.kmin <<endl;
-	cout << "kth large" <<p.kmax <<endl;
+	cout << "kth small " << p.kmin <<endl;
+	cout << "kth large " <<p.kmax <<endl;
 }
 
