@@ -1,3 +1,5 @@
+
+  
 #include<iostream>
 #include<algorithm>
 
@@ -23,4 +25,3 @@ int main(){
 	cout << "kth small " << p.kmin <<endl;
 	cout << "kth large " <<p.kmax <<endl;
 }
-
