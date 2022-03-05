@@ -4,17 +4,17 @@ using namespace std;
 
 
 int stock(int A[],int n) {
-        int t = INT_MAX;
+        int min = INT_MAX;
         int p = 0;
-        int d = 0;
+        int dif = 0;
         
         for(int i = 0; i < n; i++){
-            if(A[i] < t){
-                t = A[i];
+            if(A[i] < min){
+                min = A[i];
             }
-            d = A[i] - t;
-            if(p < d){
-                p = d;
+            diff = A[i] - min;
+            if(p < dif){
+                p = dif;
             }
         }
         return p;
